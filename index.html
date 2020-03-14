@@ -4,12 +4,292 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>Flower e-shop</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header id="header" class="header fade-in-bg px-3 text-white fixed-top">
+        <div id="inner-header" class="nav py-2 px-5 mt-3 justify-content-between sticky-top">
+            <div class="navbar-brand logo-cont">
+                <a href="index.html">
+                    <img src="images/logo.png" width="19px" height="19px" alt="logo">
+                    <span class="logo-text">Green Tea</span>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link">products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">account</a></li>
+                    <li class="nav-item d-flex heart-logo bg-lgreen btn-c mr-3"><a href="#" class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a></li>
+                    <li class="nav-item d-flex cart-logo bg-red btn-c position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a><div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <main class="bg-white">
+        <div class="p-5 hero-sec text-white d-flex justify-content-between flex-column">
+            <div class="helper"></div>
+            <div class="hero-action float-left">
+                <h1>Green tea for everyone</h1>
+                <p class=" py-3">order your Tea today!</p>
+                <a href="#" class="btn-c py-3 px-5 bg-red">Order Now!</a>
+            </div>
+            <span class="d-inline-block">+1 800 555 123</span>
+        </div>
+        <section class="models mt-4">
+            <div class="sec-title d-flex justify-content-between">
+                <h2 class="p-4">Explore Our New Plants</h2>
+                <div class="caro-btns-cont mr-3 ">
+                    <a class="caro-btns mx-2" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="fas fa-chevron-left text-secondary" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="caro-btns mx-2" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="fas fa-chevron-right text-secondary" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="70000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="caro-1-cont p-4">
+                        <div class="grid-wraper">
+                            <div class="card bg-light card-1 p-4">
+                                <div class="card-title-c d-flex justify-content-between">
+                                    <div class="card-title-left">
+                                        <h3>Indian Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                    <div class="card-title-right">
+                                        <span class="d-inline-block bg-green btn-c discount-s">-50%</span>
+                                    </div>
+                                
+
+                                </div>
+                                <div class="img-cont mx-5">
+                                    <img class="product-img d-block h-100" src="images/items/tea-leaf-1926x1713.png" alt="img">
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="card flex-row bg-light d-flex justify-content-between card-2">
+                                
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>chinese Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/teabitg.png" alt="img">
+                                </div>
+                            </div>
+
+
+
+                            
+                            <div class="card flex-row bg-light d-flex justify-content-between card-3">
+                            
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>Thai Tea</h3>
+                                        <span class="prisio">139590$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/tea-leaf-436x406.png" alt="img">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="caro-1-cont p-4">
+                        <div class="grid-wraper">
+                            <div class="card bg-light card-1 p-4">
+                                <div class="card-title-c d-flex justify-content-between">
+                                    <div class="card-title-left">
+                                        <h3>Indian Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                    <div class="card-title-right">
+                                        <span class="d-inline-block bg-green btn-c discount-s">-50%</span>
+                                    </div>
+                                
+
+                                </div>
+                                <div class="img-cont mx-5">
+                                    <img class="product-img d-block h-100" src="images/items/tea-leaf-1926x1713.png" alt="img">
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="card flex-row bg-light d-flex justify-content-between card-2">
+                                
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>chinese Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/teabitg.png" alt="img">
+                                </div>
+                            </div>
+
+
+
+                            
+                            <div class="card flex-row bg-light d-flex justify-content-between card-3">
+                            
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>Thai Tea</h3>
+                                        <span class="prisio">139590$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/tea-leaf-436x406.png" alt="img">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                  <div class="carousel-item">
+                    <div class="caro-1-cont p-4">
+                        <div class="grid-wraper">
+                            <div class="card bg-light card-1 p-4">
+                                <div class="card-title-c d-flex justify-content-between">
+                                    <div class="card-title-left">
+                                        <h3>Indian Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                    <div class="card-title-right">
+                                        <span class="d-inline-block bg-green btn-c discount-s">-50%</span>
+                                    </div>
+                                
+
+                                </div>
+                                <div class="img-cont mx-5">
+                                    <img class="product-img d-block h-100" src="images/items/tea-leaf-1926x1713.png" alt="img">
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="card flex-row bg-light d-flex justify-content-between card-2">
+                                
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>chinese Tea</h3>
+                                        <span class="prisio">8990$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/teabitg.png" alt="img">
+                                </div>
+                            </div>
+
+
+
+                            
+                            <div class="card flex-row bg-light d-flex justify-content-between card-3">
+                            
+                                <div class="card-title-c p-4 pr-md-0 d-flex justify-content-between ">
+                                    <div class="card-title-left-s">
+                                        <h3>Thai Tea</h3>
+                                        <span class="prisio">139590$</span> <i class=" fas fa-shopping-cart text-red"></i>
+                                    </div>
+                                </div>
+                                <div class="img-cont d-flex pr-4 overflow-hidden ">
+                                    <img class="product-img m-auto h-100 " src="images/items/tea-leaf-436x406.png" alt="img">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum deserunt eveniet facilis sunt porro quam quasi
+        debitis numquam amet reprehenderit quaerat odio, facere sequi ab atque quos odit. Autem a, in, minima ipsa officia
+        numquam, tenetur aspernatur molestias aperiam error illo repellat consectetur eveniet animi excepturi consequatur
+        cumque dolorem neque! Commodi eos soluta dolore voluptatibus quam tenetur quidem neque ea maiores ipsa perferendis,
+        distinctio harum, laboriosam ut quia ducimus at veniam, veritatis atque cum in. Consequatur necessitatibus autem
+        perferendis voluptatem laudantium earum, placeat ducimus praesentium corporis tempora, dolor ut molestiae quaerat
+        quibusdam repellendus! Accusamus modi minus perspiciatis incidunt vitae eum voluptatum aspernatur sunt
+        necessitatibus mollitia, tempora corporis sed dolor earum, obcaecati, cupiditate ipsam voluptas illo sint excepturi
+        dolorum labore architecto inventore? Quisquam adipisci iusto culpa accusantium esse cumque itaque rerum eum totam
+        sit sed illum rem facere, laborum temporibus, amet fuga non molestias mollitia officiis! Sequi iusto nam fugit
+        quaerat pariatur modi? Possimus, dolore dolorum numquam voluptas cum omnis fuga officia voluptatum dolor hic dicta
+        sunt obcaecati, inventore facere, expedita eos! Nisi eligendi optio exercitationem ipsum ea nobis minus? Voluptatem
+        quod inventore, minima mollitia vero esse nesciunt saepe cupiditate. Earum, explicabo quas accusamus amet aliquid
+        dolorum repellat illum suscipit excepturi reprehenderit, cupiditate quod ad architecto dolorem veritatis porro,
+        praesentium sunt labore ipsam. Esse soluta inventore nam eum illo quae dolore ullam nihil. Ipsa natus libero
+        debitis, soluta qui aspernatur provident animi praesentium voluptates. Aspernatur iure inventore accusantium,
+        necessitatibus a laboriosam corporis possimus ex enim atque quia distinctio nihil magni quam soluta fugiat quo
+        maxime nesciunt molestias? Mollitia ratione, dolorum officia ut nisi delectus omnis nihil at labore, fuga nulla
+        aperiam tempore? Magni consequuntur beatae corrupti porro aspernatur quo voluptate! Velit quos nobis maiores
+        cupiditate facilis eaque possimus fugit dolorem ipsa! Repellendus inventore eius, velit voluptatibus neque, eaque
+        harum reprehenderit optio voluptas aut minus, voluptates sed. Repellendus porro ducimus nulla accusantium explicabo
+        assumenda esse incidunt reiciendis beatae saepe modi, dolores optio sit debitis nobis provident, id voluptatem
+        facere enim dolorum est exercitationem nemo. Nemo accusamus, dolore et odit rem itaque nesciunt? Vel aliquam dolores
+        optio, dolor praesentium pariatur repellendus sequi corrupti neque officiis doloribus laudantium minima illum vero
+        commodi a, aliquid odit molestias consequatur quia laborum ea adipisci enim. Harum ullam illum dicta quod nemo hic!
+        Minus, atque pariatur. Mollitia, ab nihil. Odio voluptas commodi dolorem minus nisi? Repudiandae nulla nesciunt
+        animi praesentium distinctio laboriosam, enim ipsum nam veritatis odio eius laudantium consectetur earum, eos, rem
+        molestias at dolores voluptatum labore ullam minus necessitatibus. Molestiae laboriosam reiciendis vero dolorum
+        inventore quasi enim. Voluptate quo qui necessitatibus fugiat quas tempora suscipit officiis facilis eum culpa
+        pariatur eligendi distinctio omnis deserunt quasi unde quae corrupti itaque perferendis aspernatur voluptatem
+        veniam, ratione eaque? Itaque officia eligendi esse iste nostrum, voluptatibus eveniet necessitatibus ipsam
+        veritatis repudiandae? Ipsa, a? Illo, temporibus! Corrupti repudiandae mollitia omnis placeat fugiat quis adipisci
+        quam quod ab cupiditate, qui in dolorum quidem repellat cum amet reprehenderit magni, debitis necessitatibus? Iure
+        et quo dignissimos autem commodi cupiditate quae tempore dolorum ratione accusantium alias itaque iste officiis
+        aspernatur nostrum perspiciatis natus, suscipit voluptatem id dolor laborum! Enim quisquam exercitationem repellat
+        distinctio non autem natus ab magnam corrupti, blanditiis sapiente numquam incidunt dolor sunt quia placeat dolore
+        explicabo ipsum. Quidem, quasi. Deserunt, quasi sint illum alias perferendis sequi corrupti. Ab quod veniam
+        voluptatem similique alias quam doloremque dolor repellat est! Quo sit, earum natus illo et molestias soluta
+        voluptatum suscipit cupiditate eveniet architecto asperiores eius aliquid alias! Iste fugiat eligendi cumque
+        repudiandae. Tenetur corrupti, repellendus minus non eveniet necessitatibus ipsum ad itaque repellat quod, esse sit
+        nulla provident. Dolorem laborum dicta labore aperiam veniam debitis in suscipit! Quisquam sapiente ut natus dolore
+        architecto illum perspiciatis doloremque nulla nemo magnam a vel obcaecati accusamus dolorem atque omnis
+        voluptatibus est odio odit, tempore ipsa, possimus velit. Tenetur, expedita beatae quae eveniet, vero nihil error
+        facilis repellendus itaque esse quia possimus obcaecati! Necessitatibus repudiandae accusamus odio. Beatae
+        aspernatur ea voluptatum distinctio placeat dolorem consequatur! Sapiente rem dolorum beatae alias quaerat quae eius
+        sint magnam at. Ipsa rerum illum fugit illo atque! Debitis voluptate quas iusto ab dolore ducimus, velit quaerat?
+        Porro rerum libero eaque, nam voluptatem voluptas animi iste mollitia cupiditate minima accusantium maiores facere
+        error perferendis aperiam veritatis similique quisquam totam! Amet quia officia recusandae tenetur perferendis sequi
+        repellat, fugit asperiores quas fuga eveniet non a esse ad, atque consequuntur mollitia nostrum architecto
+        provident, earum sed fugiat quis. Fugit reiciendis inventore dolor iusto numquam quasi, veniam distinctio quo nobis
+        placeat voluptates voluptatum vel doloremque! Ipsa magni at iure incidunt! Veritatis adipisci quam laudantium
+        ratione recusandae, id exercitationem earum debitis veniam quia amet consectetur beatae nobis? Id odit amet totam et
+        inventore, neque at quos facere officia sapiente aspernatur, magni dolores labore mollitia! Quia nobis cumque
+        quaerat fugiat aperiam illum dolor cum ducimus eius deserunt sit velit minima necessitatibus, culpa ex ratione
+        repellendus officiis ipsam. Hic, fuga soluta libero consequuntur error sit voluptas voluptatibus eos rerum nostrum,
+        expedita temporibus, ab provident quidem! Nobis assumenda deserunt, ex ullam laborum sint corrupti quibusdam tempora
+        laudantium error animi aliquam, dolores sed neque omnis id mollitia. Voluptatibus tempora autem magni rem voluptas
+        vel deleniti culpa sint nisi dignissimos. Recusandae inventore consectetur excepturi. Laudantium, ex consequuntur
+        nisi tempora voluptates quibusdam, repellendus error voluptatum eius maiores veniam repudiandae, distinctio dolorum
+        est accusamus libero iste quis culpa dolorem. Minima, sapiente quasi? Qui error incidunt doloremque, deserunt
+        inventore fuga voluptatibus veritatis! Quis, delectus. Eius quidem neque rem molestiae, necessitatibus vitae
+        possimus error mollitia consequatur animi praesentium ad delectus cupiditate eligendi corrupti sit tenetur
+        repudiandae rerum et fuga quo voluptas. Quis, placeat inventore. Error cumque animi sapiente labore aliquam numquam
+        dignissimos nobis tenetur? Ex debitis earum beatae facere temporibus vel culpa praesentium sit esse, sapiente ut
+        magni dolores perspiciatis facilis atque! Consequatur soluta beatae, iusto accusantium eius nobis? Placeat dolore
+        necessitatibus earum quae non similique illo assumenda nihil, aspernatur ea praesentium dolorum facere sapiente
+        velit est. Aspernatur enim nesciunt ipsam aut amet id! Praesentium mollitia aliquid autem animi, at placeat sed
+        optio sunt voluptatem, illo culpa!</main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
