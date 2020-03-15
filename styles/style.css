@@ -24,6 +24,10 @@ body {
   filter: invert(100%);
 }
 
+.c-cont {
+  max-width: 1440px;
+}
+
 /* colors */
 
 .bg-green {
@@ -106,12 +110,17 @@ body {
 
 .grid-wraper-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 
   /* grid-template-rows: repeat(auto-fit, 440px ); */
   grid-gap: 40px;
   margin: auto;
   max-width: 1388px;
+}
+
+.grid-3-cont {
+  max-width: 1275px;
+  margin: auto;
 }
 
 .card-2 {
