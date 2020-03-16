@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Flower e-shop</title>
+</head>
+
+<body>
+    <header id="header2" class="header fade-in-bg px-3 text-white sticky-top bg-green c-cont m-auto">
+        <div id="inner-header" class="nav py-2 px-5  justify-content-between bg-green sticky-top">
+            <div class="navbar-brand logo-cont">
+                <a href="index.html">
+                    <img src="images/logo.png" width="19px" height="19px" alt="logo">
+                    <span class="logo-text">Green Tea</span>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">products</a></li>
+                    <li class="nav-item"><a href="index.html#footer" class="nav-link">about us</a></li>
+                    <li class="nav-item"><a href="checkout.html" class="nav-link">Go to cart</a></li>
+                    <li class="nav-item d-flex heart-logo bg-lgreen btn-c mr-3 position-relative"><a href="#"
+                            class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a>
+                        <div id="fav-num" class="incart-num d-none btn-c position-absolute bg-white text-dark"><span
+                                class="notification-span">2</span> </div>
+                    </li>
+                    <li class="nav-item d-flex cart-logo bg-red btn-c position-relative"><a href="#"
+                        class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a>
+                    <div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span
+                        class="notification-span">2</span> </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="bg-white c-cont m-auto">
+
+        <section class="filter-sec px-5 py-4 ">
+            <div class="sec-title d-flex justify-content-between">
+                <h2 class="py-4">Filter by category</h2>
+                <div class=" mr-3 ">
+                    
+                </div>
+            </div>
+            <div class="filter-cont d-flex ">
+
+                <!-- Price range start  -->
+
+                <aside class="filter-aside p-4 position-relative">
+                    <div class="sticky-top-c ">
+                        <div class="filter-upper ">
+                            <div class="rang">
+                                <h5>Pick a price range</h5>
+                                <div class="price-range-cont d">
+                                    <div class="price-range d-block"></div>
+                                    <div id="slider-range" class="slider-range ">
+                                </div>
+                                <div class="input-cont d-flex justify-content-around">
+                                    <input type="text" name="" id="smallRange" class=" inline-block">
+                                    <input type="text" name="" id="bigRange" class="inline-block">
+                                </div>
+                            </div>
+                            <div class="color my-4">
+                                <h5>pick a color</h5>
+                                </div>
+                                <div class="my-4 btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-circle btn-danger active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                    </label>
+                                    <label class="btn btn-circle btn-primary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                    </label>
+                                    <label class="btn btn-circle btn-warning">
+                                    <input type="radio" name="options" id="option3" autocomplete="off">
+                                    </label>
+                                    <label class="btn btn-circle btn-success">
+                                        <input type="radio" name="options" id="option3" autocomplete="off">
+                                    </label>
+                                    <label class="btn btn-circle btn-info">
+                                        <input type="radio" name="options" id="option3" autocomplete="off">
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+
+                    <!-- Price range END  -->
+
+                    <div class="bottom-filter">
+                        <h5>Locations</h5>
+                        <div class="">
+                        <input type="checkbox" name="" id="">south east asia</div>
+                        <div class="">
+                        <input type="checkbox" name="" id="">southern Australia</div>
+                        <div class="">
+                        <input type="checkbox" name="" id="">north west Africa</div>
+                        <div class="">
+                        <input type="checkbox" name="" id="">panama</div>
+                        <h5 class="my-3 ">Shiping</h5>
+                        <div class="">
+                            <input type="radio" name="shiping" id="">FedX</div>
+                            <div class="">
+                            <input type="radio" name="shiping" id="">China Mail</div>
+                            <div class="">
+                            <input type="radio" name="shiping" id="">DHL</div>
+                            <div class="">
+                            <input type="radio" name="shiping" id="">UK mail</div>
+                        
+                    </div>
+                    <div class="btn-cont d-flex mt-5">
+                        <a href="filter.html" class="px-4 py-2 btn-c bg-red m-auto d-inline-block text-light" >Apply Changes</a>
+                    </div>
+        
+                </div>
+                </aside>
+                <div class="grid-5-cont ">
+                    <div class="grid-wraper-5">
+
+                        <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p1.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product1" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                        <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p2.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product2" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                        <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p3.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product3" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p4.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product4" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                        <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p3.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product5" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                    <div class="card card-3 rounded border">
+                            <div class="card2-img-cont bg-light-c">
+                                <img class="card-img-top" src="images/products/p4.png" height="200px" width="50px" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <button id="product6" class=" far fa-heart .full-heat heart-btn text-red border-0"></button>
+                                <h5 class="card-title">bermuda plant</h5>
+                                <div class="size-btns-cont">
+                                    <div class=" btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 1 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> 3 yr.
+                                        </label>
+                                        <label class="btn size-btn btn-success bg-light border-light  text-dark">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> 5 yr.
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-text my-4">3490$ <button class="fas fa-shopping-cart cart-btn text-red border-0"></button></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="btn-cont d-flex mt-5">
+                        <a href="checkout.html" class="px-4 py-2 btn-c bg-red m-auto d-inline-block text-light" >Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </section><!--  testimonials section  -->
+        
+        <section class="testimonials-sec mt-4 text-white p-5">
+            <div class="sec-title d-flex justify-content-between">
+                <h2 class="py-4">What clients think about us</h2>
+                <div class="caro-btns-cont mr-3 ">
+                    <a class="caro-btns mx-2" href="#carousel-3" role="button" data-slide="prev">
+                        <span class="fas fa-chevron-left text-light" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="caro-btns mx-2" href="#carousel-3" role="button" data-slide="next">
+                        <span class="fas fa-chevron-right text-light" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="carousel-3" class="carousel slide" data-ride="carousel" data-interval="70000">
+                <div class="carousel-inner">
+        
+        
+                    <div class="carousel-item active">
+        
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+                                <!-- https://placeimg.com/95/95/peopole https://avatars0.githubusercontent.com/u/22369973?s=460&u=72bd932d5f6d8c3d29bd1b4194b0b6da8f1f610f&v=4 -->
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>zack</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>jane</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+        
+        
+                    <div class="carousel-item">
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+        
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>amber</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>chris</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="carousel-item">
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+        
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Tolulope</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4"
+                                                src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Tolulope</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui
+                                            ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione
+                                            laudantium.</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-2" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </section>
+        
+        <!--  testimonials section END -->
+        
+        <!-- map section  -->
+        <section class="map-section">
+            <div">
+                <iframe width="100%" height="600"
+                    src="https://maps.google.com/maps?width=100%&amp;height=500&amp;hl=en&amp;coord=48.8566969, 2.3514616 &amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                        href="https://www.maps.ie/coordinates.html">gps coordinates</a>
+                </iframe>
+                </div>
+                <br />
+        </section>
+        
+        <!-- map section END -->
+        </main>
+        <footer id="footer" class=" bg-white py-4 c-cont m-auto header d-flex px-5">
+            <div class="inner-footer d-flex">
+                <div class="m-auto w-100">
+                    <a href="mailto: abc@example.com" class="bg-green btn-c py-2 px-4 text-white d-inline-block w-100 ">Send us an email now <i
+                            class="envlope-btn float-right fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="inner-footer d-flex justify-content-around">
+                <div class=" left-text-footer d-inline-block">
+                    <p>La Boutique des <br> Saints-Peres Fleuriste <br> inagoultsints-Pères</p>
+                </div>
+        
+                <div class=" right-text-footer d-inline-block">
+                    <p>+33 1 44 50 00 <br> 2014 Rue des Saints-Pères,<br> 75007 Paris, France </p>
+                </div>
+            </div>
+        
+            <div class="inner-footer">
+                <p>2020, Green Tea shop, Adam allalou</p>
+                <img src="images/payment-mth.png" alt="img">
+            </div>
+        </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.js"></script>
+</body>
+</html>

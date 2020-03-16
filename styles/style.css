@@ -73,7 +73,6 @@ body {
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat, repeat;
- 
 }
 
 .btn-c {
@@ -127,7 +126,31 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-gap: 40px;
   margin: auto;
-  max-width: 1388px;
+  max-width: 1150px;
+}
+
+.grid-wraper-5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  /* max-width: 1388px; */
+}
+
+.grid-5-cont {
+  width: auto;
+  /* max-width: 1000px; */
+  /* min-width: 400px; */
+}
+
+.card-3 {
+  width: 285px;
+  margin: 15px auto;
+}
+
+.filter-aside {
+  width: 25%;
+  max-width: 280px;
+  min-width: 275px;
 }
 
 .grid-wraper-4 {
@@ -135,11 +158,6 @@ body {
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-template-rows: minmax(300px, auto);
   grid-gap: 40px;
-}
-
-.test-text,
-.profile-info-cont {
-  /* height: 150px; */
 }
 
 .inner-footer {
@@ -165,7 +183,6 @@ body {
   height: 400px;
   max-width: 370px;
   position: relative;
-
 }
 
 .heart-btn {
@@ -206,15 +223,6 @@ body {
 }
 
 .size-btn:hover {
-  background-color: rgb(249, 249, 249) !important;
-}
-
-.card-2 .active,
-.card-2 .focus,
-.btn-light:focus {
-  border-color: var(--main-green);
-  outline: 0;
-  box-shadow: 0 0 1px 2px #71d320ad !important;
   background-color: rgb(249, 249, 249) !important;
 }
 
@@ -268,3 +276,63 @@ body {
   min-width: 150px;
 }
 
+.filter-upper {
+  height: 200px;
+}
+
+.input-cont {
+  margin: 20px 0;
+}
+
+.input-cont > input {
+  padding: 3px 0 3px 15px;
+  font-size: 85%;
+  width: 70px;
+  height: 23px;
+  border-radius: 4px;
+  border: 2px solid var(--main-green);
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+}
+
+.color > div > label {
+  margin-right: 05px;
+}
+
+/* Horizontal range  */
+
+.ui-slider-horizontal {
+  height: 1px;
+}
+
+.ui-slider .ui-slider-handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.ui-widget-content {
+  background-color: lightgrey !important;
+  border: 0 !important;
+}
+
+.ui-widget-header,
+.ui-state-default {
+  border: 0 !important;
+  background-color: var(--main-green) !important;
+}
+
+/* Horizontal range end */
+
+.sticky-top-c {
+  top: 70px;
+  position: sticky;
+}
