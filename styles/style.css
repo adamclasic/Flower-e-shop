@@ -82,7 +82,15 @@ body {
 .cart-logo,
 .heart-logo {
   font-size: 88%;
-  height: 42px;
+  height: 42px !important;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.menu-btn {
+  padding: 10px;
+  height: 42px !important;
+ border: 0;
   width: 42px;
 }
 
@@ -104,7 +112,6 @@ body {
 .caro-btns {
   vertical-align: middle;
   line-height: 96px;
-
 }
 
 .grid-wraper {
@@ -133,13 +140,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  /* max-width: 1388px; */
 }
 
 .grid-5-cont {
   width: auto;
-  /* max-width: 1000px; */
-  /* min-width: 400px; */
 }
 
 .card-3 {
@@ -295,7 +299,7 @@ body {
 
 .btn-circle {
   width: 30px;
-  height: 30px;
+  height: 30px !important;
   text-align: center;
   padding: 6px 0;
   font-size: 12px;
@@ -335,4 +339,74 @@ body {
 .sticky-top-c {
   top: 70px;
   position: sticky;
+}
+
+.form {
+  font-size: 80%;
+}
+
+.form > div:last-child > label {
+  vertical-align: top;
+}
+
+.form input,
+.form-lable {
+  width: 360px;
+}
+
+.form input {
+  border: 1px solid var(--main-green);
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.form > div {
+  margin: 15px 0;
+}
+
+.form > div:last-child > textarea {
+  width: 360px;
+  height: 150px;
+}
+
+.form h5 {
+  font-weight: 900;
+}
+
+.cart-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cart-items-cont {
+  flex: 1;
+  margin: 0 30px;
+}
+
+/* // Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  nav > ul.nav {
+    /* display: none; */
+  }
+}
+
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  /* .nav-item {
+    font-size: 80%;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.5rem;
+  } */
+}
+
+/* // Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+  
 }

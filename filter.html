@@ -24,20 +24,24 @@
             </div>
             <nav class="nav">
                 <ul class="nav justify-content-end">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">products</a></li>
-                    <li class="nav-item"><a href="index.html#footer" class="nav-link">about us</a></li>
-                    <li class="nav-item"><a href="checkout.html" class="nav-link">Go to cart</a></li>
-                    <li class="nav-item d-flex heart-logo bg-lgreen btn-c mr-3 position-relative"><a href="#"
-                            class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a>
-                        <div id="fav-num" class="incart-num d-none btn-c position-absolute bg-white text-dark"><span
-                                class="notification-span">2</span> </div>
-                    </li>
-                    <li class="nav-item d-flex cart-logo bg-red btn-c position-relative"><a href="#"
-                        class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a>
-                    <div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span
-                        class="notification-span">2</span> </div>
-                    </li>
+                    <li class="nav-item d-none d-md-block"><a href="index.html.html" class="nav-link">Home</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="filter.html" class="nav-link">products</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="#footer" class="nav-link">about us</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="checkout.html" class="nav-link">Go to cart</a></li>
+                    <div class="nav-item dropdown show d-block d-md-none">
+                        <a class="btn menu-btn heart-logo d-block btn-success bg-lgreen" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a href="index.html.html" class="dropdown-item">Home</a>
+                            <a href="filter.html" class="dropdown-item">products</a>
+                            <a href="#footer" class="dropdown-item">about us</a>
+                            <a href="checkout.html" class="dropdown-item">Go to cart</a>
+                          </div>
+                    </div>
+                    
+                    <li class=" d-flex heart-logo bg-lgreen btn-c mx-3 position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a> <div id="fav-num" class="incart-num d-none btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div></li>
+                    <li class=" d-flex cart-logo bg-red btn-c position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a><div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div> </li>
+                    
                 </ul>
             </nav>
         </div>
