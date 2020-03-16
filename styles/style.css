@@ -403,7 +403,13 @@ body {
 
 /* // Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
-  
+  .grid-wraper {
+    grid-template-columns: 1fr;
+  }
+
+  .card-22 {
+    flex-direction: column !important;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and down) */

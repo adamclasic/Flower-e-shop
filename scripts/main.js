@@ -14,8 +14,17 @@ function addToFav(pId, arr) {
         addOrRemove(arr, pId);
         if (arr.length == 0) {
             $("#fav-num").addClass('d-none');
+            $("#fav-notification").removeClass('bg-red');
+            $("#fav-notification").addClass('bg-lgreen');
+
+            
+
         } else {
             $("#fav-num").removeClass('d-none');
+            $("#fav-notification").removeClass('bg-lgreen');
+            $("#fav-notification").addClass('bg-red');
+            console.log($("#fav-notification"));
+
         }
         $("#fav-num").text(arr.length);
         $('#' + pId).toggleClass("fas far");
