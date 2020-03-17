@@ -90,7 +90,7 @@ body {
 .menu-btn {
   padding: 10px;
   height: 42px !important;
- border: 0;
+  border: 0;
   width: 42px;
 }
 
@@ -383,24 +383,6 @@ body {
   margin: 0 30px;
 }
 
-/* // Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {
-  nav > ul.nav {
-    /* display: none; */
-  }
-}
-
-/* // Medium devices (tablets, 768px and down) */
-@media (max-width: 768px) {
-  /* .nav-item {
-    font-size: 80%;
-  }
-
-  .nav-link {
-    padding: 0.5rem 0.5rem;
-  } */
-}
-
 /* // Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
   .grid-wraper {
@@ -410,18 +392,4 @@ body {
   .card-22 {
     flex-direction: column !important;
   }
-
-  .footer-btn-cont {
-    max-width: 350px;
-
-  }
-
-  .footer-text-cont {
-    margin: 30px auto;
-  }
-}
-
-/* // Extra large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) {
-  
 }
