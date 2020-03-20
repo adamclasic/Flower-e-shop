@@ -399,6 +399,10 @@ body {
   .nav-link {
     padding: 0.5rem 0.5rem;
   } */
+
+  .card-2 {
+    margin: auto;
+  }
 }
 
 /* // Large devices (desktops, 992px and down) */
