@@ -407,6 +407,15 @@ body {
   .card-2 {
     margin: auto;
   }
+
+  .hero-action {
+    text-align: center;
+  }
+
+  .grid-wraper-4 {
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+
+  }
 }
 
 /* // Large devices (desktops, 992px and down) */

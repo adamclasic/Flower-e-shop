@@ -127,10 +127,10 @@ $(document).ready(function () {
             spaceBetween: 15,
             centeredSlides: true,
             width: 260,
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-            },
+            // pagination: {
+            //   el: '.swiper-pagination',
+            //   clickable: true,
+            // },
           });
           
       });
