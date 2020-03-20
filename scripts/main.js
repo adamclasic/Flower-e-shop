@@ -79,7 +79,7 @@ $(document).ready(function () {
             // slidesPerView: 2,
             spaceBetween: 15,
             centeredSlides: true,
-            width: 250,
+            width: 260,
             pagination: {
               el: '.swiper-pagination',
               clickable: true,
@@ -126,7 +126,7 @@ $(document).ready(function () {
             // slidesPerView: 2,
             spaceBetween: 15,
             centeredSlides: true,
-            width: 250,
+            width: 260,
             pagination: {
               el: '.swiper-pagination',
               clickable: true,
