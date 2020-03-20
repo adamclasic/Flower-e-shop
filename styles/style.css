@@ -388,6 +388,10 @@ body {
   nav > ul.nav {
     /* display: none; */
   }
+
+  .caro-btns-cont {
+    display: none;
+  }
 }
 
 /* // Medium devices (tablets, 768px and down) */
@@ -428,4 +432,13 @@ body {
 /* // Extra large devices (large desktops, 1200px and down) */
 @media (max-width: 1200px) {
   
+}
+
+.swiper-container {
+  height: 444px;
+  width: 100%;
+}
+
+.swiper-slide {
+  width: 200%;
 }

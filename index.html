@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <title>Flower e-shop</title>
   </head>
   <body>
     <header id="header" class="header fade-in-bg px-md-3 text-white fixed-top c-cont m-auto">
-        <div id="inner-header" class="nav py-2 px-5  justify-content-between sticky-top">
+        <div id="inner-header" class="nav py-2 px-sm-5  justify-content-between sticky-top">
             <div class="navbar-brand logo-cont">
                 <a href="index.html">
                     <img src="images/logo.png" width="19px" height="19px" alt="logo">
@@ -330,6 +331,8 @@
             </div>
         </section>
 
+        
+
         <section class="product-grid-sec mt-4 text-dark mx-5 py-4">
             <div class="sec-title d-flex justify-content-between">
                 <h2 class="py-4">Best selling plants</h2>
@@ -337,8 +340,10 @@
                     
                 </div>
             </div>
-            <div class="grid-3-cont ">
-                <div class="grid-wraper-3">
+            
+            <div id="grid-3-cont" class="grid-3-cont ">
+                
+                <div id="grid-3" class="grid-wraper-3">
 
                     <div class="card card-2 rounded border">
                         <div class="card2-img-cont bg-light-c">
@@ -486,6 +491,8 @@
                     </div>
 
                 </div>
+                <div class="swiper-pagination"></div>
+
             </div>
             <div class="btn-cont d-flex mt-5">
                 <a href="filter.html" class="px-4 py-2 btn-c bg-red m-auto d-inline-block text-light" >see all items</a>
@@ -517,7 +524,6 @@
                       
                         <div class="caro-1-cont ">
                             <div class="grid-wraper-4">
-                                <!-- https://placeimg.com/95/95/peopole https://avatars0.githubusercontent.com/u/22369973?s=460&u=72bd932d5f6d8c3d29bd1b4194b0b6da8f1f610f&v=4 -->
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
@@ -613,7 +619,7 @@
                                             <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
                                         </div>
                                         <div class="profile-info">
-                                            <h3>Tolulope</h3>
+                                            <h3>amanda</h3>
                                             <p class="text-secondary mb-1">Junior devolper at oracle</p>
                                             <a href="#" class="inline-block fab fa-twitter text-green"></a>
                                             <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
@@ -630,7 +636,7 @@
                                             <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
                                         </div>
                                         <div class="profile-info">
-                                            <h3>Tolulope</h3>
+                                            <h3>amanda</h3>
                                             <p class="text-secondary mb-1">Junior devolper at oracle</p>
                                             <a href="#" class="inline-block fab fa-twitter text-green"></a>
                                             <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
@@ -699,6 +705,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
