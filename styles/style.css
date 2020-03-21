@@ -269,6 +269,10 @@ iframe {
   padding-bottom: 16px;
 }
 
+.bottom-filter input {
+  margin-right: 8px;
+}
+
 .carousel-indicators li {
   width: 10px;
   height: 10px;
