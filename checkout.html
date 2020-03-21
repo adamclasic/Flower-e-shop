@@ -21,7 +21,7 @@
         <div id="inner-header" class="nav py-2 px-sm-5  justify-content-between bg-green sticky-top">
             <div class="navbar-brand logo-cont">
                 <a href="index.html">
-                    <img src="images/logo.png" width="19px" height="19px" alt="logo">
+                    <img src="images/logo.png" width="19" height="19" alt="logo">
                     <span class="logo-text">Green Tea</span>
                 </a>
             </div>
@@ -31,16 +31,16 @@
                     <li class="nav-item d-none d-md-block"><a href="filter.html" class="nav-link">products</a></li>
                     <li class="nav-item d-none d-md-block"><a href="#footer" class="nav-link">about us</a></li>
                     <li class="nav-item d-none d-md-block"><a href="checkout.html" class="nav-link">Go to cart</a></li>
-                    <div class="nav-item dropdown show d-block d-md-none">
-                        <a class="btn menu-btn heart-logo d-block btn-success bg-lgreen" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></a>
+                    <li class="nav-item dropdown show d-block d-md-none">
+                        <a class="line-h-2 btn menu-btn heart-logo d-block btn-success bg-lgreen" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a href="index.html" class="dropdown-item">Home</a>
                             <a href="filter.html" class="dropdown-item">products</a>
                             <a href="#footer" class="dropdown-item">about us</a>
                             <a href="checkout.html" class="dropdown-item">Go to cart</a>
-                          </div>
-                    </div>
+                        </div>
+                    </li>
                     
                     <li id="fav-notification" class=" d-flex heart-logo bg-lgreen btn-c mx-3 position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a> <div id="fav-num" class="incart-num d-none btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div></li>
                     <li class=" d-flex cart-logo bg-red btn-c position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a><div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div> </li>
@@ -78,11 +78,11 @@
                         </div>
                         <h5>Payment info</h5>
                         <div class="">
-                            <label class="form-lable"  for="card">Card holder's name: </label>
-                            <input type="text" name="name" id="name" placeholder="enter your name">
+                            <label class="form-lable"  for="holdername">Card holder's name: </label>
+                            <input type="text" name="name" id="holdername" placeholder="enter your name">
                         </div>
                         <div class="">
-                            <label class="form-lable"  for="pass">SVC Number</label>
+                            <label class="form-lable"  for="svc">SVC Number</label>
                             <input type="password" name="svc" id="svc" placeholder="000">
                         </div>
                         <div class="">
@@ -91,8 +91,8 @@
                         </div>
                         <div class="addiitional-msg">
                             <h5>Additional message</h5>
-                            <label class="form-lable"  for="card">Additional message: </label>
-                            <textarea class="textarea" rows="4" cols="50">
+                            <label class="form-lable"  for="textarea">Additional message: </label>
+                            <textarea class="textarea" id="textarea" rows="4" cols="50">
                                 </textarea>
                         </div>
 
@@ -104,7 +104,7 @@
                         <h5>Items in cart: </h5>
                         <div class="d-flex cart-item py-3 border-top border-bottom ">
                             <div class="img-cont-s">
-                                <img src="images/products/p1.png" height="95px" width="95px" alt="img">
+                                <img src="images/products/p1.png" height="95" width="95" alt="img">
                             </div>
                             <div class="item-info">
                                 <p class="mb-1">austrian tea</p>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="d-flex cart-item py-3 border-bottom ">
                             <div class="img-cont-s">
-                                <img src="images/products/p1.png" height="95px" width="95px" alt="img">
+                                <img src="images/products/p1.png" height="95" width="95" alt="img">
                             </div>
                             <div class="item-info">
                                 <p class="mb-1">austrian tea</p>
@@ -154,7 +154,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Zack</h3>
@@ -171,7 +171,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Jane</h3>
@@ -200,7 +200,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Amber</h3>
@@ -217,7 +217,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Chris</h3>
@@ -243,7 +243,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Amy</h3>
@@ -260,7 +260,7 @@
                                 <div class="img-cont bg-light text-dark rounded px-5 py-5">
                                     <div class="profile-info-cont d-flex">
                                         <div class="profile-img-cont">
-                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95px" width="95px" alt="img">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
                                         </div>
                                         <div class="profile-info">
                                             <h3>Amy</h3>
@@ -291,14 +291,10 @@
 
         <!-- map section  -->
         <section class="map-section">
-            <div">
-                <iframe width="100%" height="600"
-                    src="https://maps.google.com/maps?width=100%&amp;height=500&amp;hl=en&amp;coord=48.8566969, 2.3514616 &amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-                    href="https://www.maps.ie/coordinates.html">gps coordinates</a>
+            <div>
+                <iframe src="https://maps.google.com/maps?width=100&amp;height=500&amp;hl=en&amp;coord=48.8566969,2.3514616&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed">
                 </iframe>
             </div>
-            <br />
         </section>
 
         <!-- map section END -->
@@ -306,7 +302,7 @@
 <footer id="footer" class="bg-white py-4 c-cont m-auto header d-lg-flex d-block px-1 px-sm-5">
     <div class="inner-footer d-flex">
         <div class="m-auto footer-btn-cont w-100">
-            <a href="mailto: abc@example.com" class="bg-green btn-c py-2 px-4 text-white d-inline-block w-100 ">Send us an email now <i class="envlope-btn float-right fas fa-envelope"></i></a>
+            <a href="mailto:abc@example.com" class="bg-green btn-c py-2 px-4 text-white d-inline-block w-100 ">Send us an email now <i class="envlope-btn float-right fas fa-envelope"></i></a>
         </div>
     </div>
     <div class="inner-footer footer-text-cont d-flex justify-content-around">

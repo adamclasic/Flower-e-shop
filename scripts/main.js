@@ -71,7 +71,7 @@ $(document).ready(function () {
 
     $(window).resize(function() {
         
-        if ($(window).width() < 700) {
+        if ($(window).width() < 650) {
             $('#grid-3').addClass('swiper-wrapper');
             $('#grid-3').removeClass('grid-wraper-3');
             $('#grid-3-cont').addClass('swiper-container');
