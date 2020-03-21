@@ -21,7 +21,11 @@ button:focus {
 
 body {
   background-color: rgb(0, 197, 10);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+  font-family: 'Merriweather', serif;
 }
 
 .logo-cont > a > img {
@@ -77,6 +81,7 @@ body {
 
 .btn-c {
   border-radius: 25px;
+  font-family: 'Spicy Rice', cursive;
 }
 
 .cart-logo,
@@ -90,7 +95,7 @@ body {
 .menu-btn {
   padding: 10px;
   height: 42px !important;
- border: 0;
+  border: 0;
   width: 42px;
 }
 
@@ -123,7 +128,7 @@ body {
 
 .grid-wraper-2 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
   grid-template-rows: 250px;
   grid-gap: 40px;
 }
@@ -155,6 +160,7 @@ body {
   width: 25%;
   max-width: 280px;
   min-width: 275px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-wraper-4 {
@@ -343,6 +349,12 @@ body {
 
 .form {
   font-size: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form > h5 {
+  width: 100%;
 }
 
 .form > div:last-child > label {
@@ -352,6 +364,7 @@ body {
 .form input,
 .form-lable {
   width: 360px;
+  margin: 0 auto;
 }
 
 .form input {
@@ -383,38 +396,19 @@ body {
   margin: 0 30px;
 }
 
-/* // Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {
-  nav > ul.nav {
-    /* display: none; */
-  }
-
-  .caro-btns-cont {
-    display: none;
-  }
+.swiper-container {
+  height: 444px;
+  width: 100%;
 }
 
-/* // Medium devices (tablets, 768px and down) */
-@media (max-width: 768px) {
-  /* .nav-item {
-    font-size: 80%;
-  }
+.swiper-slide {
+  width: 200%;
+}
 
-  .nav-link {
-    padding: 0.5rem 0.5rem;
-  } */
-
-  .card-2 {
-    margin: auto;
-  }
-
-  .hero-action {
-    text-align: center;
-  }
-
-  .grid-wraper-4 {
-  grid-template-columns: repeat(1, minmax(300px, 1fr));
-
+/* // Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1100px) {
+  .cart-items-cont {
+    display: none;
   }
 }
 
@@ -430,24 +424,120 @@ body {
 
   .footer-btn-cont {
     max-width: 350px;
-
   }
 
   .footer-text-cont {
     margin: 30px auto;
   }
+
+  .grid-wraper-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: 250px;
+    grid-gap: 40px;
+  }
+
+  .grid-wraper-2 > div:nth-child(3) {
+    display: none;
+  }
 }
 
-/* // Extra large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) {
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  /* .nav-item {
+    font-size: 80%;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.5rem;
+  } */
   
+  .checkout-title {
+    font-size: 120%;
+  }
+  
+  .card-2 {
+    margin: auto;
+  }
+  
+  .hero-action {
+    text-align: center;
+  }
+  
+  .grid-wraper-4 {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+  
+  .grid-wraper-2 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-template-rows: 250px;
+    grid-gap: 40px;
+  }
+  
+  .grid-wraper-2 > div:nth-child(2) {
+    display: none;
+  }
+
+  .form {
+    width: 290px;
+  }
+
+  .form-cont {
+    margin: auto;
+  }
+
+  .textarea,
+  .form input,
+  .form-lable {
+    width: 280px;
+  }
+
+  .form > div:last-child > textarea {
+    width: 300px;
+    height: 150px;
+  }
 }
 
-.swiper-container {
-  height: 444px;
-  width: 100%;
-}
 
-.swiper-slide {
-  width: 200%;
+
+
+/* // Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  nav > ul.nav {
+    /* display: none; */
+  }
+
+  .caro-btns-cont {
+    display: none;
+  }
+
+  .form > div:last-child > textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+  .form-cont {
+    margin: auto;
+  }
+  
+  .textarea,
+  .form input,
+  .form-lable {
+    width: 240px;
+    display: inline-block
+  }
+  
+  .form {
+    width: 100%;
+  }
+
+  .addiitional-msg {
+    display: none;
+  }
+
+  .modal-dialog {
+    width: 300px;
+    margin: auto;
+  }
 }
