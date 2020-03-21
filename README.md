@@ -28,7 +28,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <br />
 <p align="center">
   <a href="https://github.com/adamclasic/Flower-e-shop">
-    <img src="images/favicon.png" alt="Logo" width="145" height="145">
+    <img src="images/favicon.png" alt="Logo" width="90" height="90">
   </a>
 
   <h3 align="center">Flower eshop</h3>
@@ -90,7 +90,7 @@ This project was built using these technologies.
 <!-- CONTACT -->
 ## Contact
 
-👤 Adam Allalou - twitter: [@Adamclasic](https://twitter.com/AdamAllalou) - github: [@Adamclasic](https://github.com/adamclasic) - gmail: aabou9@gmail.com
+👤 Adam Allalou - twitter: [@AdamAllalou](https://twitter.com/AdamAllalou) - github: [@Adamclasic](https://github.com/adamclasic) - gmail: aabou9@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
