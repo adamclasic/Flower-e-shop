@@ -28,10 +28,12 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <br />
 <p align="center">
   <a href="https://github.com/adamclasic/Flower-e-shop">
-    <img src="https://i.dlpng.com/static/png/4034060-newsweek-logo-png-transparent-svg-vector-freebie-supply-newsweek-png-800_600_preview.webp" alt="Logo" width="145" height="80">
+    
+    <img src="images/favicon.png" alt="Logo" width="90" height="90">
   </a>
 
-  <h3 align="center">Using Bootstrap</h3>
+  <h3 align="center">Flower eshop</h3>
+
 
   <p align="center">
     This project is part of the Microverse CSS3 and HTML curriculum!
@@ -64,8 +66,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 ![screenshot](images/screenshot-md.png)
 
 ![screenshot](images/screenshot-sm.png)
-<!-- 
-This project is trying to replicate as much as possible the [NewsWeek.com](https://www.newsweek.com/) page. -->
+
 
 Here are the objectives for this project:
 * Use as many Bootstrap classes as possible to re create this website
@@ -91,7 +92,8 @@ This project was built using these technologies.
 <!-- CONTACT -->
 ## Contact
 
-👤 Adam Allalou - twitter: [@Adamclasic](https://twitter.com/justin_clasic) - github: [@Adamclasic](https://github.com/adamclasic) - gmail: aabou9@gmail.com
+👤 Adam Allalou - twitter: [@AdamAllalou](https://twitter.com/AdamAllalou) - github: [@Adamclasic](https://github.com/adamclasic) - gmail: aabou9@gmail.com
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
