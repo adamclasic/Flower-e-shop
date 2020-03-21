@@ -28,10 +28,12 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <br />
 <p align="center">
   <a href="https://github.com/adamclasic/Flower-e-shop">
+    
     <img src="images/favicon.png" alt="Logo" width="90" height="90">
   </a>
 
   <h3 align="center">Flower eshop</h3>
+
 
   <p align="center">
     This project is part of the Microverse CSS3 and HTML curriculum!
@@ -91,6 +93,7 @@ This project was built using these technologies.
 ## Contact
 
 👤 Adam Allalou - twitter: [@AdamAllalou](https://twitter.com/AdamAllalou) - github: [@Adamclasic](https://github.com/adamclasic) - gmail: aabou9@gmail.com
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
