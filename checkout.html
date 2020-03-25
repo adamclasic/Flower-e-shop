@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Flower e-shop</title>
+</head>
+
+<body>
+    <header id="header2" class="header fade-in-bg  px-1 px-sm-3 text-white sticky-top bg-green c-cont m-auto">
+        <div id="inner-header" class="nav py-2 px-sm-5  justify-content-between bg-green sticky-top">
+            <div class="navbar-brand logo-cont">
+                <a href="index.html">
+                    <img src="images/logo.png" width="19" height="19" alt="logo">
+                    <span class="logo-text">Green Tea</span>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item d-none d-md-block"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="filter.html" class="nav-link">products</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="#footer" class="nav-link">about us</a></li>
+                    <li class="nav-item d-none d-md-block"><a href="checkout.html" class="nav-link">Go to cart</a></li>
+                    <li class="nav-item dropdown show d-block d-md-none">
+                        <a class="line-h-2 btn menu-btn heart-logo d-block btn-success bg-lgreen" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a href="index.html" class="dropdown-item">Home</a>
+                            <a href="filter.html" class="dropdown-item">products</a>
+                            <a href="#footer" class="dropdown-item">about us</a>
+                            <a href="checkout.html" class="dropdown-item">Go to cart</a>
+                        </div>
+                    </li>
+                    
+                    <li id="fav-notification" class=" d-flex heart-logo bg-lgreen btn-c mx-3 position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0   "> <i class=" fas fa-heart"></i> </a> <div id="fav-num" class="incart-num d-none btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div></li>
+                    <li class=" d-flex cart-logo bg-red btn-c position-relative"><a href="#" class="nav-link d-inline-block m-auto p-0  "><i class=" fas fa-shopping-cart"></i></a><div id="incart-num" class="incart-num btn-c position-absolute bg-white text-dark"><span class="notification-span">2</span> </div> </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="bg-white c-cont m-auto">
+
+        <section class="filter-sec px-1 px-sm-5 py-4 ">
+            <div class="sec-title d-flex justify-content-between">
+                <h3 class="py-4 checkout-title">Checkout Form</h3>
+                <div class=" mr-3 ">
+                    
+                </div>
+            </div>
+            <div class="filter-cont d-flex ">
+                <div class="form-cont">
+                    <form class="form " action="POST">
+                        <h5>Personal informations</h5>
+                        <div class="">
+                            <label class="form-lable"  for="name">full name: </label>
+                            <input type="text" name="name" id="name" placeholder="enter your name">
+                        </div>
+                        <div class="">
+                            <label class="form-lable"  for="email">E-mail addreess: </label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="">
+                            <label class="form-lable"  for="phone">Your phone number: </label>
+                            <input type="tel" name="phone" id="phone" placeholder="0 555 555 5555 ">
+                        </div>
+                        <h5>Payment info</h5>
+                        <div class="">
+                            <label class="form-lable"  for="holdername">Card holder's name: </label>
+                            <input type="text" name="name" id="holdername" placeholder="enter your name">
+                        </div>
+                        <div class="">
+                            <label class="form-lable"  for="svc">SVC Number</label>
+                            <input type="password" name="svc" id="svc" placeholder="000">
+                        </div>
+                        <div class="">
+                            <label class="form-lable"  for="address">Your shiping address: </label>
+                            <input type="text" name="address" id="address" placeholder="address ">
+                        </div>
+                        <div class="addiitional-msg">
+                            <h5>Additional message</h5>
+                            <label class="form-lable"  for="textarea">Additional message: </label>
+                            <textarea class="textarea" id="textarea" rows="4" cols="50">
+                                </textarea>
+                        </div>
+
+                    </form>
+
+                </div>
+                <aside class="cart-items-cont">
+                    <div class="cart-item">
+                        <h5>Items in cart: </h5>
+                        <div class="d-flex cart-item py-3 border-top border-bottom ">
+                            <div class="img-cont-s">
+                                <img src="images/products/p1.png" height="95" width="95" alt="img">
+                            </div>
+                            <div class="item-info">
+                                <p class="mb-1">austrian tea</p>
+                                <small class="text-secondary">5 in stock</small><br>
+                                <strong>$555</strong>
+                            </div>
+                        </div>
+                        <div class="d-flex cart-item py-3 border-bottom ">
+                            <div class="img-cont-s">
+                                <img src="images/products/p1.png" height="95" width="95" alt="img">
+                            </div>
+                            <div class="item-info">
+                                <p class="mb-1">austrian tea</p>
+                                <small class="text-secondary">5 in stock</small><br>
+                                <strong>$555</strong>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        
+        <!--  testimonials section  -->
+
+        <section class="testimonials-sec  text-white px-2 px-sm-5 pt-5">
+            <div class="sec-title d-flex justify-content-between">
+                <h2 class="py-4">What clients think about us</h2>
+                <div class="caro-btns-cont mr-3 ">
+                    <a class="caro-btns mx-2" href="#carousel-3" role="button" data-slide="prev">
+                        <span class="fas fa-chevron-left text-light" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="caro-btns mx-2" href="#carousel-3" role="button" data-slide="next">
+                        <span class="fas fa-chevron-right text-light" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="carousel-3" class="carousel slide" data-ride="carousel" data-interval="70000">
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                      
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Zack</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Jane</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="carousel-item">
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+    
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Amber</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Chris</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="caro-1-cont ">
+                            <div class="grid-wraper-4">
+    
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Amy</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+
+                                <div class="img-cont bg-light text-dark rounded px-5 py-5">
+                                    <div class="profile-info-cont d-flex">
+                                        <div class="profile-img-cont">
+                                            <img class="rounded-circle profile-img mr-4" src="https://placeimg.com/95/95/peopole" height="95" width="95" alt="img">
+                                        </div>
+                                        <div class="profile-info">
+                                            <h3>Amy</h3>
+                                            <p class="text-secondary mb-1">Junior devolper at oracle</p>
+                                            <a href="#" class="inline-block fab fa-twitter text-green"></a>
+                                            <a href="#" class="ml-2 inline-block fab fa-facebook-f text-green"></a>
+                                        </div>
+                                    </div>
+                                    <div class="test-text d-flex pt-4">
+                                        <p class=" d-inline-block m-auto">Lorem ipsum dolor sit amet magnam, illo quidem aut qui ut nulla, sit voluptate ex quisquam repellat hic culpa temporibus eos ipsam ratione laudantium.</p>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-2" data-slide-to="2"></li>
+                  </ol>
+            </div>
+        </section>
+
+        <!--  testimonials section END -->
+
+        <!-- map section  -->
+        <section class="map-section">
+            <div>
+                <iframe src="https://maps.google.com/maps?width=100&amp;height=500&amp;hl=en&amp;coord=48.8566969,2.3514616&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- map section END -->
+</main>
+<footer id="footer" class="bg-white py-4 c-cont m-auto header d-lg-flex d-block px-1 px-sm-5">
+    <div class="inner-footer d-flex">
+        <div class="m-auto footer-btn-cont w-100">
+            <a href="mailto:abc@example.com" class="bg-green btn-c py-2 px-4 text-white d-inline-block w-100 ">Send us an email now <i class="envlope-btn float-right fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <div class="inner-footer footer-text-cont d-flex justify-content-around">
+        <div class=" left-text-footer d-inline-block">
+            <p>La Boutique des <br> Saints-Peres Fleuriste <br> inagoultsints-Pères</p>
+        </div>
+
+        <div class=" right-text-footer d-inline-block">
+            <p>+33 1 44 50 00 <br> 2014 Rue des Saints-Pères,<br> 75007 Paris, France </p> 
+        </div>
+    </div>
+
+    <div class="overflow-hidden inner-footer d-flex">
+        <div class="m-auto">
+            <p>2020, Green Tea shop, Adam Allalou</p>
+            <img class="" src="images/payment-mth.png" alt="img">
+        </div>
+    </div>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
