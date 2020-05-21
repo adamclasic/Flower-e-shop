@@ -29,7 +29,8 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <p align="center">
   <a href="https://github.com/adamclasic/Flower-e-shop">
     
-    <img src="images/favicon.png" alt="Logo" width="90" height="90">
+   
+   <img src="images/favicon.png" alt="Logo" width="90" height="90">
   </a>
 
   <h3 align="center">Flower eshop</h3>
@@ -41,7 +42,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
     <a href="https://github.com/adamclasic/Flower-e-shop/issues"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/adamclasic/Flower-e-shop/c9a21d59041c7c03272cff2e75cb794bd9d79a38/index.html">View Demo</a>
+    <a href="https://adamclasic.github.io/Flower-e-shop/">View Demo</a>
     ·
     <a href="https://github.com/adamclasic/Flower-e-shop/issues">Report Bug</a>
     ·
@@ -54,7 +55,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Live Version](#live-version)
+* [Live Version](https://adamclasic.github.io/Flower-e-shop/)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
