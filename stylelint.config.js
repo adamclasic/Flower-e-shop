@@ -2,7 +2,6 @@
 
 module.exports = {
   "extends": "stylelint-config-recommended",
-  "ignoreFiles": ["styles/swiper-bundle.min.css"],
   "rules": {
     "at-rule-empty-line-before": [ "always", {
       except: [
