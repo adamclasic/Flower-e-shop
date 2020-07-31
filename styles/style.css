@@ -126,7 +126,7 @@ iframe {
 .grid-wraper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px;
+  /* grid-template-rows: 300px; */
   grid-gap: 40px;
 }
 
@@ -246,7 +246,6 @@ iframe {
 }
 
 .product-img {
-  width: 300px;
   margin: 0 auto;
 }
 
@@ -517,6 +516,11 @@ iframe {
 @media (max-width: 576px) {
   .caro-btns-cont {
     display: none;
+  }
+
+  .big-product-img {
+    height: 189px;
+    width: auto;
   }
 
   .form > div:last-child > textarea {
