@@ -195,8 +195,8 @@ iframe {
 
 .card-2 {
   height: 400px;
-  max-width: 370px;
   position: relative;
+  max-width: 320px;
 }
 
 .heart-btn {
