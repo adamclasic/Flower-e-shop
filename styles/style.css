@@ -131,10 +131,9 @@ iframe {
 }
 
 .grid-wraper-2 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(260px, 1fr));
-  grid-template-rows: 250px;
-  grid-gap: 40px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
 }
 
 .grid-wraper-3 {
@@ -482,9 +481,8 @@ iframe {
   }
 
   .grid-wraper-2 {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    grid-template-rows: 250px;
+    display: flex;
+    flex: 1;
     grid-gap: 40px;
   }
 
