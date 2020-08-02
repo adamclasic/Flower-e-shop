@@ -100,6 +100,7 @@ This project was built using these technologies.
 * [The Odin Project](https://www.theodinproject.com/)
 * [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Designer](https://www.behance.net/altezzik/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
