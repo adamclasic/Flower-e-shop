@@ -73,7 +73,7 @@ body {
 .hero-sec {
   height: 100vh;
   width: 100%;
-  background-image: url('../images/hero-redtea.png');
+  background-image: url('../images/hero.png');
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat, repeat;
@@ -126,15 +126,13 @@ iframe {
 .grid-wraper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px;
   grid-gap: 40px;
 }
 
 .grid-wraper-2 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(260px, 1fr));
-  grid-template-rows: 250px;
-  grid-gap: 40px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
 }
 
 .grid-wraper-3 {
@@ -151,12 +149,20 @@ iframe {
   margin: auto;
 }
 
+.btn-group-toggle > .active {
+  box-shadow: 0 0 0 0.2rem rgb(238, 237, 237);
+}
+
 .grid-5-cont {
   width: auto;
 }
 
+.card2-img-cont {
+  height: 222px;
+}
+
 .card-3 {
-  width: 285px;
+  width: 270px;
   margin: 15px auto;
 }
 
@@ -195,8 +201,8 @@ iframe {
 
 .card-2 {
   height: 400px;
-  max-width: 370px;
   position: relative;
+  max-width: 320px;
 }
 
 .heart-btn {
@@ -246,7 +252,6 @@ iframe {
 }
 
 .product-img {
-  width: 300px;
   margin: 0 auto;
 }
 
@@ -483,9 +488,8 @@ iframe {
   }
 
   .grid-wraper-2 {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    grid-template-rows: 250px;
+    display: flex;
+    flex: 1;
     grid-gap: 40px;
   }
 
@@ -517,6 +521,24 @@ iframe {
 @media (max-width: 576px) {
   .caro-btns-cont {
     display: none;
+  }
+
+  .logo-cont {
+    font-size: 97%;
+  }
+
+  .big-product-img {
+    height: 189px;
+    width: auto;
+  }
+
+  .hero-sec {
+    background-image: url('../images/hero-sm.png');
+    background-position: -727px bottom;
+  }
+
+  .phone-num {
+    color: black;
   }
 
   .form > div:last-child > textarea {

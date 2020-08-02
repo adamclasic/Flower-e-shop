@@ -61,11 +61,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot](images/screenshot.png)
-
-![screenshot](images/screenshot-md.png)
-
-![screenshot](images/screenshot-sm.png)
+![product-screenshot](images/woman mockup.png)
 
 
 Here are the objectives for this project:
@@ -83,6 +79,8 @@ This project was built using these technologies.
 * Stickler
 * VsCode
 * Jquery
+* Jquery UI
+* Swiper.js
 
 <!-- LIVE VERSION -->
 ## Live version
@@ -102,6 +100,7 @@ This project was built using these technologies.
 * [The Odin Project](https://www.theodinproject.com/)
 * [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Designer](https://www.behance.net/altezzik/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
