@@ -126,7 +126,6 @@ iframe {
 .grid-wraper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 300px; */
   grid-gap: 40px;
 }
 
@@ -154,8 +153,12 @@ iframe {
   width: auto;
 }
 
+.card2-img-cont {
+  height: 222px;
+}
+
 .card-3 {
-  width: 285px;
+  width: 270px;
   margin: 15px auto;
 }
 
