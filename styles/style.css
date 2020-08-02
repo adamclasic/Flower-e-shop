@@ -532,6 +532,15 @@ iframe {
     width: auto;
   }
 
+  .hero-sec {
+    background-image: url('../images/hero-sm.png');
+    background-position: -727px bottom;
+  }
+
+  .phone-num {
+    color: black;
+  }
+
   .form > div:last-child > textarea {
     width: 300px;
     height: 150px;
