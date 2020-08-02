@@ -150,7 +150,7 @@ iframe {
 }
 
 .btn-group-toggle > .active {
-  box-shadow: 0 0 0 0.2rem rgb(238, 237, 237)
+  box-shadow: 0 0 0 0.2rem rgb(238, 237, 237);
 }
 
 .grid-5-cont {
