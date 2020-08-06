@@ -61,7 +61,7 @@ First I create "atoms" - product cards. Combining them, I build the main and int
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot](images/woman mockup.png)
+![product-screenshot](images/woman-mockup.png)
 
 
 Here are the objectives for this project:
