@@ -132,7 +132,6 @@ iframe {
 .grid-wraper-2 {
   display: flex;
   justify-content: center;
-  grid-gap: 20px;
 }
 
 .grid-wraper-3 {
