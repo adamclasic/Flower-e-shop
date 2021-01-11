@@ -97,7 +97,6 @@ This project was built using these technologies.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
 * [The Odin Project](https://www.theodinproject.com/)
 * [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
